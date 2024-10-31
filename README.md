@@ -34,20 +34,16 @@ Navigate to the project directory:
 cd timetable-generator
 Install the dependencies:
 
-bash
-Copy code
 npm install
 Set up your environment variables: Create a .env file in the root of the project and add your Supabase and Resend credentials:
 
-makefile
-Copy code
+
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 VITE_RESEND_API_KEY=your_resend_api_key
 Start the development server:
 
-bash
-Copy code
+
 npm run dev
 Open your browser and go to http://localhost:5173.
 
